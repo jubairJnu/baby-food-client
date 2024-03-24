@@ -32,7 +32,7 @@ It is a cloths donation company which have many facilities like donation , see s
 Clone the project
 
 ```bash
-  https://github.com/Porgramming-Hero-web-course/l2-b2-assignment-6-fronten-jubairJnu.git
+  [https://github.com/Porgramming-Hero-web-course/l2-b2-assignment-6-fronten-jubairJnu.git](https://github.com/jubairJnu/baby-food-client.git)
 ```
 
 Go to the project directory
