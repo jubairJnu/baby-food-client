@@ -24,16 +24,22 @@ const AllProductsPage = async ({
   searchParams: ISearchParams;
 }) => {
   let products = [];
+ 
 
   if (searchParams.category) {
     const res = await fetch(
-      `https://baby-care-server.vercel.app/category-product?category=${searchParams.category}`
+      `https://baby-care-server.vercel.app/category-product?category=${searchParams.category}`,
+      {
+        cache: "no-store",
+      }
     );
 
     products = await res.json();
-    console.log(products);
+   
   } else {
-    const res = await fetch("https://baby-care-server.vercel.app/products");
+    const res = await fetch("https://baby-care-server.vercel.app/products", {
+      cache: "no-store",
+    });
 
     products = await res.json();
   }

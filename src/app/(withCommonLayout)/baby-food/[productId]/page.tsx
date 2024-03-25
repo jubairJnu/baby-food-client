@@ -18,7 +18,7 @@ type TParams = {
 export const generateStaticParams = async () => {
   const res = await fetch("https://baby-care-server.vercel.app/products");
   const prodcuts = await res.json();
-  console.log(prodcuts);
+
   return prodcuts.slice(0, 10).map((item: Tprodcut) => ({
     productId: item._id,
   }));
@@ -27,7 +27,10 @@ export const generateStaticParams = async () => {
 const SingleProductPage = async ({ params }: TParams) => {
   console.log(params.productId);
   const res = await fetch(
-    `https://baby-care-server.vercel.app/products/${params.productId}`
+    `https://baby-care-server.vercel.app/products/${params.productId}`,
+    {
+      cache: "no-store",
+    }
   );
   const product = await res.json();
 
@@ -46,8 +49,8 @@ const SingleProductPage = async ({ params }: TParams) => {
               <Image
                 src={product.images}
                 alt="product"
-                width={500}
-                height={280}
+                width={400}
+                height={250}
               />
             </div>
             {/* infos */}

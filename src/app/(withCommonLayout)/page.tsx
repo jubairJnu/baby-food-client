@@ -7,9 +7,9 @@ const Homepage = () => {
   return (
     <>
       <HeroSection />
-      {/* <FlashSell /> */}
+      <FlashSell />
       <TopCategory />
-      {/* <MostPopular /> */}
+      <MostPopular />
     </>
   );
 };
