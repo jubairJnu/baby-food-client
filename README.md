@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Baby Food 
 
-First, run the development server:
+It is a cloths donation company which have many facilities like donation , see statics data, cloths card and details . 
+
+
+## Features
+* Have a navbar which have logo, home, all product, flash sale, dashboard
+* Can see all falsh sale product with countdown
+* Have category to visit by category
+* Have most popular product based on rating
+* can see all product
+* Have a dashboard which show all product in a table
+* Have Footer with relevent information
+* Have sigle product page which show details of products
+
+
+## Technologies
+
+**Client:** next js, material ui , typescript, react timer hook, swiper js
+
+**Server:** Node, Express, mongodb
+
+
+## Demo
+
+[https://cloths-donation-clinet.web.app/](https://baby-food-client.vercel.app/)
+
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  [https://github.com/Porgramming-Hero-web-course/l2-b2-assignment-6-fronten-jubairJnu.git](https://github.com/jubairJnu/baby-food-client.git)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd baby-food-client
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
 
-To learn more about Next.js, take a look at the following resources:
+ 
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+```bash
+  npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
