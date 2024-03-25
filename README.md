@@ -24,7 +24,7 @@ It is a cloths donation company which have many facilities like donation , see s
 
 ## Demo
 
-[https://cloths-donation-clinet.web.app/](https://baby-food-client.vercel.app/)
+https://baby-food-client.vercel.app/
 
 
 ## Run Locally
